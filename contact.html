@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon-rmdev.ico">
+
+    <title>Ricardo Moura │ Desenvolvedor Freelancer</title>
+    <meta name="description"
+        content="RM Developer: Soluções digitais personalizadas para elevar sua presença online. Criação de sites, otimização de SEO, e-commerce e muito mais. Transforme suas ideias digitais em realidade com RM Developer.">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsividade.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--AOS CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80XVHS2NWN">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-80XVHS2NWN');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '756368293168994');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=756368293168994&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+</head>
+
+<body>
+
+    <div class="loader"></div>
+
+    <!--Start HEADER-->
+    <header id="header" class="header">
+        <div class="container-header">
+            <div class="logo">
+                <a href="index.html">Ricardo Moura <span class="destaque">│Dev.</span></a>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="menu-navegacao">
+                <i class="fa-solid fa-times close-icon"></i>
+                <ul class="lista-navegacao">
+                    <li><a href="index.html" class="fade-left">INÍCIO</a></li>
+                    <li><a href="about.html" class="fade-up">SOBRE</a></li>
+                    <li><a href="services.html" class="fade-right">SERVIÇOS</a></li>
+                    <li><a href="projects.html" class="fade-down">PROJETOS</a></li>
+                    <li><a href="contact.html" class="fade-left">CONTATO</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--End HEADER-->
+
+    <!--Start Section Contact-->
+    <section id="contact" class="contact">
+        <div class="container-contact">
+            <div class="headline" data-aos="fade-up" data-aos-delay="100">
+                <span class="destaque">Vamos conversar</span>
+                <h1>Entre em Contato</h1>
+            </div>
+            <div class="content-contact">
+                <div class="left-contact" data-aos="fade-right" data-aos-delay="200">
+                    <div class="text-contact">
+                        <h1>Pronto para transformar suas ideias em realidade?</h1>
+                        <p>Estou aqui para ajudar você a criar soluções digitais que impulsionam o crescimento do seu negócio. Entre em contato para discutirmos suas necessidades e como podemos alcançar seus objetivos juntos.</p>
+                    </div>
+                    <div class="list-contact">
+                        <span class="destaque">Contate-me</span>
+                        <div class="container-list">
+                            <ul>
+                                <li><i class="fa-solid fa-envelope"></i> Email: contato@rmdeveloper.com.br</li>
+                                <li><i class="fa-solid fa-map-marker-alt"></i> Localização: Itajaí, Santa Catarina - Brasil</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="redes-sociais-contato">
+                        <span class="destaque">Redes Sociais:</span>
+                        <a href="https://github.com/RicardoMouraa" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ricardomouradev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.tiktok.com/@riicardomoura" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/riicardomoura/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+    
+                <div class="right-contact" data-aos="fade-left" data-aos-delay="300">
+                    <h2>Envie sua mensagem</h2>
+                    <form id="contact-form">
+                        <label for="name">Nome*</label>
+                        <input type="text" name="user_name" required>
+    
+                        <label for="whatsapp">WhatsApp*</label>
+                        <input type="tel" name="user_phone" required>
+    
+                        <label for="email">E-mail*</label>
+                        <input type="email" name="user_email" required>
+    
+                        <label for="company">Empresa (Opcional)</label>
+                        <input type="text" name="subject">
+    
+                        <label for="message">Mensagem*</label>
+                        <textarea rows="5" name="message" required placeholder="Descreva um pouco do seu projeto..."></textarea>
+    
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                        <p id="form-success" class="success-message">Sua mensagem foi enviada com sucesso!</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Section Contact-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>Todos os direitos reservados<br />Desenvolvido <span class="destaque">Ricardo Moura│Dev.</span></p>
+    </footer>
+    <!--End Footer-->
+
+    <!--Scripts-->
+    <script src="/assets/js/menu.js"></script>
+    <script src="assets/js/emailForm.js"></script>
+    <script src="/assets/js/headerAnimation.js"></script>
+    <script src="/assets/js/scrollAnimation.js"></script>
+    <script src="/assets/js/imageScroll.js"></script>
+    <script src="assets/js/changePagesAnimation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        AOS.init();
+
+        // Máscara para o campo WhatsApp
+        document.getElementById('whatsapp').addEventListener('input', function (e) {
+            let value = e.target.value.replace(/\D/g, '');
+            value = value.replace(/^(\d{2})(\d{5})(\d{4}).*/, '($1) $2-$3');
+            e.target.value = value;
+        });
+    </script>
+
+</body>
+
+</html>

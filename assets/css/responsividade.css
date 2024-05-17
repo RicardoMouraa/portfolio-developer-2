@@ -1,0 +1,449 @@
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Header*/
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .menu-icon, .close-icon {
+        font-size: 2.2rem;
+    }
+
+    /*Menu Navegação*/
+    .lista-navegacao li {
+        font-size: 3rem;
+    }
+
+    /*Home*/
+    .text-home h1 {
+        font-size: 4rem;
+    }
+
+    .text-home span {
+        font-size: 2.7rem;
+    }
+
+    .redes-sociais a {
+        font-size: 1.8rem;
+    }
+
+    /*Headline*/
+    .headline span {
+        font-size: 1.6rem;
+    }
+
+    .headline h1 {
+        font-size: 3rem;
+    }
+
+    /*About, Skills*/
+    .about, .skills {
+        width: 92%;
+    }
+
+    .img-about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-about img {
+        width: 100%;
+    }
+
+    .content-about-left h1 {
+        font-size: 2rem;
+    }
+
+    .cta-about {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.6rem;
+    }
+    
+    .btn-about {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .about-social {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        gap: 0.8rem;
+        cursor: pointer;
+        height: 100%;
+        padding: 0;
+    }
+
+    /*Skills*/
+    .skills-headline span {
+        font-size: 1.6rem;
+    }
+
+    .skills-headline h1 {
+        font-size: 2rem;
+    }
+
+    /*Services, Testimonial*/
+    #services, #testimonial {
+        width: 92%;
+        height: auto;
+    }
+
+    .content-services {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .card-service {
+        border-radius: 25px;
+        max-width: 45%;
+        height: 320px;
+    }
+
+    .content-testmonial {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Projetos*/
+    .projects {
+        width: 92%;
+        height: auto;
+    }
+
+    .cards-projects {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    /*Contato*/
+    .contact {
+        border: 1px solid red;
+        width: 92%;
+        padding: 2rem 0;
+        height: auto;
+    }
+
+    .container-contact {
+        width: 100%;
+        padding: 0rem 0rem 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-contact {
+        width: 100%;
+        height: 100%;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        flex-grow: 1;
+    }
+
+    .content-contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .left-contact,
+    .right-contact {
+        width: 100%;
+    }
+
+    .left-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Header*/
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .menu-icon, .close-icon {
+        font-size: 2rem;
+    }
+
+    /*Menu Navegação*/
+    .lista-navegacao li {
+        font-size: 3rem;
+    }
+
+    /*Home*/
+    .text-home h1 {
+        font-size: 5.5rem;
+    }
+
+    .text-home span {
+        font-size: 3.7rem;
+    }
+
+    .redes-sociais a {
+        font-size: 1.6rem;
+    }
+
+    /*Headline*/
+    .headline span {
+        font-size: 1.6rem;
+    }
+
+    .headline h1 {
+        font-size: 3.1rem;
+    }
+
+    /*About*/
+    .about {
+        width: 95%;
+        height: calc(100vh - 90px);
+    }
+
+    .container-about {
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+    }
+
+    .content-about {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .content-about-left {
+        width: 50%;
+        height: 100%;
+    }
+
+    .content-about-right {
+        width: 50%;
+        height: 100%;
+    }
+
+    .img-about img {
+        width: 100%;
+    }
+
+    .content-about-left h1 {
+        font-size: 2rem;
+    }
+
+    .cta-about {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.6rem;
+    }
+    
+    .btn-about {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .about-social {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        gap: 0.8rem;
+        cursor: pointer;
+        height: 100%;
+        padding: 0;
+    }
+
+    /*Skills*/
+    .skills {
+        display: flex;
+        width: 95%;
+        max-width: 1920px;
+        height: calc(100vh - 90px);
+        align-items: center;
+        padding: 0;
+    }
+
+    .container-skills {
+        width: 100%;
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .skills-headline span {
+        font-size: 1.6rem;
+    }
+
+    .skills-headline h1 {
+        font-size: 2rem;
+    }
+
+    .skills-headline, .skills-info {
+        width: 50%;
+        height: calc(100vh - 90px);
+    }
+
+    .card-tech {
+        width: 150px;
+        height: 150px;
+    }
+
+    /*Services, Testimonial*/
+    #services, #testimonial {
+        width: 95%;
+        height: auto;
+        height: calc(100vh - 90px);
+    }
+
+    .content-services {
+        width: 100%;
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .card-service {
+        border-radius: 25px;
+        max-width: 30%;
+        height: 280px;
+        padding: 2rem;
+    }
+
+    .testimonial {
+        padding: 0;
+    }
+
+    .container-testimonial {
+        justify-content: space-between;
+    }
+
+    .content-testmonial {
+        width: 100%;
+        height: calc(100vh - 90px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .testimonial-headline {
+        width: 50%;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+    }
+
+    .testimonial-info {
+        width: 50%;
+        padding: 0rem;
+    }
+
+    /*Projetos*/
+    .projects {
+        width: 95%;
+        height: auto;
+    }
+
+    .cards-projects {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem; 
+        justify-items: center; 
+    }
+
+    .card-project {
+        max-width: 420px; 
+        width: 100%; 
+    }
+
+    /*Contato*/
+    .contact {
+        width: 95%;
+        height: calc(100vh - 90px - 60px);
+    }
+
+    .container-contact {
+        height: calc(100vh - 90px);
+    }
+    
+    .content-contact {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: calc(100vh - 90px);
+    }
+
+    .left-contact, .right-contact {
+        max-width: 48%;
+    }
+
+    .text-contact h1 {
+        font-size: 2.5rem;
+    }
+}

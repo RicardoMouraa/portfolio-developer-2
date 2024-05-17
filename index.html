@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon-rmdev.ico">
+
+    <title>Ricardo Moura │ Desenvolvedor Freelancer</title>
+    <meta name="description"
+        content="RM Developer: Soluções digitais personalizadas para elevar sua presença online. Criação de sites, otimização de SEO, e-commerce e muito mais. Transforme suas ideias digitais em realidade com RM Developer.">
+
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+        integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80XVHS2NWN">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-80XVHS2NWN');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '756368293168994');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=756368293168994&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <style>
+        body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loading-screen">
+        <div id="loading-percentage">0%</div>
+    </div>
+
+    <div class="loader"></div>
+
+    <header id="header" class="header">
+        <div class="container-header">
+            <div class="logo">
+                <a href="index.html">Ricardo Moura <span class="destaque">│Dev.</span></a>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="menu-navegacao">
+                <i class="fa-solid fa-times close-icon"></i>
+                <ul class="lista-navegacao">
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="about.html">SOBRE</a></li>
+                    <li><a href="services.html">SERVIÇOS</a></li>
+                    <li><a href="projects.html">PROJETOS</a></li>
+                    <li><a href="contact.html">CONTATO</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main id="home" class="home">
+        <div id="particles-js"></div>
+        <div class="container-home">
+            <div class="text-home">
+                <h1>Ricardo Moura</h1>
+                <span>Desenvolvedor <span class="destaque texto-animado"></span></span>
+            </div>
+            <div class="redes-sociais">
+                <a href="https://github.com/RicardoMouraa" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ricardomouradev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.tiktok.com/@riicardomoura" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/riicardomoura/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="/assets/js/menu.js"></script>
+    <script src="/assets/js/headerAnimation.js"></script>
+    <script src="/assets/js/textAnimation.js"></script>
+    <script src="/assets/js/particles.js"></script>
+    <script src="assets/js/changePagesAnimation.js"></script>
+    <script src="assets/js/loadingAnimation.js"></script>
+</body>
+
+</html>
